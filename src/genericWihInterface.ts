@@ -1,14 +1,14 @@
-// interface Developer<T, X = null> {
-//   name: string;
-//   salary: number;
-//   device: {
-//     brand: string;
-//     model: string;
-//     releasedYear: string;
-//   };
-//   smartWatch: T;
-//   bike?: X;
-// }
+interface Developer<T, X = null> {
+  name: string;
+  salary: number;
+  device: {
+    brand: string;
+    model: string;
+    releasedYear: string;
+  };
+  smartWatch: T;
+  bike?: X;
+}
 
 interface BrandCharaWatch {
   heartRate: string;
