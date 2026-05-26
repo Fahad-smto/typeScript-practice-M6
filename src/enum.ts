@@ -10,11 +10,11 @@ enum UserRoles {
   Viewer = "Viewer",
 }
 
-const canEdit = (role: UserRoles) => {
-  if (role === UserRoles.Admin || role === UserRoles.Editor) {
-    return true;
-  } else return false;
-};
+// const canEdit = (role: UserRoles) => {
+//   if (role === UserRoles.Admin || role === UserRoles.Editor) {
+//     return true;
+//   } else return false;
+// };
 
 const isEditPermissable = canEdit(UserRoles.Admin);
 console.log(isEditPermissable);
