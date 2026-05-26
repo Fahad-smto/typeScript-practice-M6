@@ -17,4 +17,4 @@ const canEdit = (role: UserRoles) => {
 };
 
 const isEditPermissable = canEdit(UserRoles.Admin);
-// console.log(isEditPermissable);
+console.log(isEditPermissable);
