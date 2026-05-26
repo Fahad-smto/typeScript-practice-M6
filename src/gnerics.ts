@@ -1,6 +1,6 @@
 //dynamically generalize: Generic
 
-type GenericArray<T> = Array<T>;
+// type GenericArray<T> = Array<T>;
 
 // const friends: string[] = ["Mr. X", "Mr. Y", "Mr. Z"];
 const friends: GenericArray<string> = ["Mr. X", "Mr. Y", "Mr. Z"];
