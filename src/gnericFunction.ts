@@ -12,12 +12,12 @@ const createArrrayWithGeneric = <T>(value: T) => {
   return [value];
 };
 
-const arrString = createArrrayWithGeneric("Apple");
-const arrNum = createArrrayWithGeneric(222);
-const arrObj = createArrrayWithGeneric({
-  id: 123,
-  name: "Next Level",
-});
+// const arrString = createArrrayWithGeneric("Apple");
+// const arrNum = createArrrayWithGeneric(222);
+// const arrObj = createArrrayWithGeneric({
+//   id: 123,
+//   name: "Next Level",
+// });
 
 // tuple
 
