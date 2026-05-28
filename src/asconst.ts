@@ -1,10 +1,10 @@
 // as const assertion
 
-// enum UserRoles {
-//   Admin = "Admin",
-//   Editor = "Editor",
-//   Viewer = "Viewer",
-// }
+enum UserRoles {
+  Admin = "Admin",
+  Editor = "Editor",
+  Viewer = "Viewer",
+}
 
 const UserRoles = {
   Admin: "ADMIN",
